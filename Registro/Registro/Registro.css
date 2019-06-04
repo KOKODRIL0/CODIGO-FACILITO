@@ -1,0 +1,29 @@
+*{
+    background-color: whitesmoke;
+    margin: 40px;
+    font-family: sans-serif;
+    
+
+}
+
+
+#contenedor{
+    height: 70px;
+    font: bold 26px Verdana, sans-serif;
+    border-style: solid;
+}
+
+#img{
+    float: right;
+}
+
+h1{
+    font-size: 18px;
+}
+
+#button{
+    background-color: blue;
+    color: white;
+    margin: 0 auto;
+
+}
