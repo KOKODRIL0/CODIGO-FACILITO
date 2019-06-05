@@ -1,29 +1,95 @@
 *{
     background-color: whitesmoke;
-    margin: 40px;
+    margin-left : 40px;
     font-family: sans-serif;
-    
-
 }
 
 
-#contenedor{
-    height: 70px;
-    font: bold 26px Verdana, sans-serif;
-    border-style: solid;
+
+#seccion{
+    margin: 0;
+    padding:0;
 }
 
-#img{
-    float: right;
-}
 
 h1{
     font-size: 18px;
+    text-align: center;
+}
+
+#foto-texto{
+display: flex;
+align-items: center;
+height: 100px;
+}
+
+#usur-box{
+    align-items: center;
+    margin:0 0 0 250px;
+
 }
 
 #button{
     background-color: blue;
     color: white;
     margin: 0 auto;
+
+}
+
+input[type="text"],input[type="email"],input[type="password"],input[type="tel"],input[type="list"],input[type="texarea"] {
+    background: #f5f5f5;
+    font-size: 0.8rem;
+    border-radius: 7px;
+    border:1px solid;
+    width: 300px;
+    height: 50px;
+    margin:10px;
+}
+
+input[type="number"]{
+
+    background: #f5f5f5;
+    font-size: 0.8rem;
+    border-radius: 7px;
+    border:1px solid;
+    width: 300px;
+    height: 50px;
+    margin: 10px;
+}
+
+input[type="texarea"]{
+    background-color: darkseagreen;
+    border:darkgreen;
+}
+
+#button{
+    width: 250px;
+    height: 40px;
+    border-radius: 7px;
+    margin:10px 0 10px 200px;
+    }
+
+#pie{
+display: flex;
+align-items: center;
+margin-left: 1000x;
+height: 100px;
+}
+
+p{
+    margin:0 0 0 200px;
+}
+
+#city{
+    width: 170px;
+    height: 50px;
+    font-size: 0.8rem;
+    border-radius: 7px;
+    border:1px solid;
+
+}
+
+#check{
+    margin: 10px;
 
 }

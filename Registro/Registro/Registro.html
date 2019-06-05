@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,83 +8,98 @@
     <title>Document</title>
     <link rel="stylesheet" href="./Registro.css">
 </head>
+
 <body>
-    <header id="contenedor">
-        <h1>CODIGO FACILITO</h1>
-        <img id="img" src="./codigo-facilito.png" alt="" width="50px" height="50px">
 
-        
+    <section id="seccion">
+        <!-- ______________________________________________________________ -->
+        <div id="foto-texto">
 
-
-    </header>
-    <!-- ____________________________________________________ -->
-    <thead class="reg-us">
-            <h1>REGISTRO DE USUARIO</h1>
-
+            <div><img src="./foto.jfif" width="100px" height="100px"></div>
+            <div id="registro">
+                <h1>REGISTRO DE USUARIO</h1>
+            </div>
+        </div>
+        <div id="usur-box">
             <input type="texarea" placeholder="USUARIO">
-    </thead>
-    
-        
-<table border="1" width="700px" heigth="1000px">
-    
-    <tr>
-        <td>
-        <label for="name">Name:</label>
-        <input type="text" placeholder="nombre">
-    </td>
-    <td>
-        <label for="name">Apellidos:</label>
-        <input type="text"placeholder="Apellidos">
-    </td>
-    </tr>    
+        </div>
 
-    <tr>
-        <td>
-        <label for="name">email</label>
-        <input type="email" placeholder="e-mail">
-    </td>
-<td>
-        <label for="name">password</label>
-        <input type="password" placeholder="password">
-    </td>
-    
-    </tr>    
+        <!-- _______________________________________________________________-->
+        <table width="700px" heigth="1000px">
+            <div class="entradas">
+                <tr>
+                    <td>
+                        <label for="name">Nombre</label>
+                        <input type="text">
+                    </td>
+                    <td>
+                        <label for="name">Apellidos</label>
+                        <input type="text">
+                    </td>
+                </tr>
 
-    <tr>
-        <td>
-        <label for="name">Confirmar pass:</label>
-        <input type="text" placeholder="confirm Pass">
-    </td>
-    <td>
-        <label for="name">Edad</label>
-        <input type="number">
-    </tr>
+                <tr>
+                    <td>
+                        <label for="name">email</label>
+                        <input type="email">
+                    </td>
+                    <td>
+                        <label for="name">Password</label>
+                        <input type="password">
+                    </td>
 
-    <tr>
-        <td>
+                </tr>
 
-        <label for="name">Telefono</label>
-        <input type="tel">
-    </td>
-<td>
-        <label for="name">Ciudad</label>
-        <input type="list">
-    </td>
+                <tr>
+                    <td>
+                        <label for="name">Confirmar pass:</label>
+                        <input type="password">
+                    </td>
+                    <td>
+                        <label for="name">Edad</label>
+                        <input type="number">
+                    </td>
+                </tr>
 
-    </table>
-    </tr>
+                <tr>
+                    <td>
+
+                        <label for="name">Telefono</label>
+                        <input type="tel">
+                    </td>
+                    <td>
+                        <label   for="name">Ciudad</label>
+                        
+                        <select id="city" >
+                            <option value="1">Arequipa</option>
+                            <option value="2">Iquitos</option>
+                        </select>
+                    </td>
+                </tr>
+            </div>
+
+        </table>
+        <!-- _______________________________________________________ -->
+
+        <div >
+            <input id="check" type="checkbox"> Acepto las politicas y condiciones.
+
+            <div>
+                <button id="button" type="submit">CREAR CUENTA</button>
+                <p>TERMINOS Y CONDICIONES</p>
+            </div>
 
 
 
-        <input type="checkbox" > Acepto las politicas
-
-        <button id="button" type="submit">CREAR CUENTA</button>
-      <!--_____________________________________________________-->
-      <footer>
-        <span>Contacto</span>
-        <span>Correo </span>
-        <span>Ubicacion</span>
-      </footer>
-      <!-- _______________________________________________________-->
+            <!--_____________________________________________________-->
+            <footer id="pie">
+                <span>Contacto</span>
+                <span>Correo </span>
+                <span>Ubicacion</span>
+                <img src="./posicion.jfif" width="100px" height="70px">
+            </footer>
+            <!-- _______________________________________________________-->
+    </section>
 </body>
+
 </html>
